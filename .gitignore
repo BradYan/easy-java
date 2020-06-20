@@ -1,0 +1,37 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+
+# Generated files
+bin/
+gen/
+out/
+target/
+logs/
+log/
+
+tomcat./
+tomcat*
+
+# Gradle files
+.gradle/
+build/
+
+# Intellij
+*.iml
+
+# Keystore files
+*.jks
+
+node_modules/
