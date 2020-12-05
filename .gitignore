@@ -35,3 +35,10 @@ build/
 *.jks
 
 node_modules/
+
+#忽略图片
+*.png
+*.PNG
+*.JPG
+*.JPEG
+*.jpeg
