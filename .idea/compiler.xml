@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="a01-java-language-core" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="a01-easy-java" target="1.8" />
       <module name="a01-easy-java-language" target="1.8" />
@@ -15,6 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="a01-java-language-core" options="-parameters" />
       <module name="d01-easy-spring-boot-tutorial" options="-parameters" />
       <module name="e01-easy-spring-cloud-tutorial" options="-parameters" />
       <module name="easy-java" options="-parameters" />
