@@ -196,3 +196,16 @@ Java使用Maven构建的项目，都是点击pom.xml文件打开。
 
 
 
+### 6.1 快速打开项目中的md文档
+
+如上图,假设想要使用markdown阅读器快速打开该文档, 右键对应的md文档 --> Show in Explorer , 即可弹出文件位置,双击打开阅读.
+
+### 6.2 Typora阅读器的view设置
+
+如下图标记1,需要选择Outline, 可以看到左边的标题导航栏,有助于把握文章位置.并快速定位.
+
+标记2, 一定不要选择Focus Mode, 和 Typewriter Mode , 十分影响阅读.
+
+另外两个选中的没看出效果上有啥大的区别.
+
+![63.png](https://upload-images.jianshu.io/upload_images/23305353-aa24df64d2c0c991.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
