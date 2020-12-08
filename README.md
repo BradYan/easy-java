@@ -95,6 +95,7 @@
 ### 4.4 下载本项目代码
 
 下载本项目代码，解压之后，开始学习。[下载从零开始学Java项目](https://github.com/BradYan/easy-java/archive/master.zip)
+项目发布在github网站,如果下载很慢,可以到国内的gitee网站下载.代码是同步克隆的.
 
 ### 4.5 开始Java零基础学习
 
