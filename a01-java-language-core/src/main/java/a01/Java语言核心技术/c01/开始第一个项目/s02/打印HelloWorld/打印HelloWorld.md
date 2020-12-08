@@ -53,7 +53,7 @@ java代码都是编写在java文件夹下面。
 (以下备注内容，是代码的注释，用双左斜杠表示，不属于代码，不影响编译和执行)
 
 ```java
-public class Hello { //备注：不同的类，名字不同。都是由class修饰。
+public class Hello { //备注：不同的类，名字不同。都是由class修饰。加上一对花括号。
 
 }
 ```
@@ -93,7 +93,7 @@ public class Hello {
 
     public static void main(String[] args) {
         System.out.println("hello world. Mr/Ms."); 
-        //备注：System.out.println是java自带的函数。用于打印字符串到控制台。
+        //备注：System.out.println是java自带的函数。用于打印字符串到控制台。字符串由英文字符的双引号括起来。
     }
 }
 ```
@@ -227,3 +227,6 @@ Java 语言这种“一次编写，到处运行”的方式，有效地解决了
 
 ![package创建](https://upload-images.jianshu.io/upload_images/23305353-d4d4b1028484fa94.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+## 文章和项目开源地址
+
+关注点赞`github`开源：[https://github.com/BradYan/easy-java](https://github.com/BradYan/easy-java)

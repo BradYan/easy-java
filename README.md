@@ -68,9 +68,9 @@
 
 ​		多搜索，思考，交流，和大家一起学习，能更容易克服学习中的困难，一个人很容易放弃。有问题，欢迎来讨论学习，和志同道合，目标一致的人一起成长。
 
-关注公众号小程序，加入一起学习。
+关注公众号【Java一浅一深】，找到Java新手入门组织，加入一起学习。
 
-![](subscribeNo.JPG)
+![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8yMzMwNTM1My01NzQyMzhmOTNhY2Q4NDgzLkpQRw?x-oss-process=image/format,png)
 
 ## 四. 学习工具
 ### 4.1 系统和硬件要求
