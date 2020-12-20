@@ -229,4 +229,4 @@ Java 语言这种“一次编写，到处运行”的方式，有效地解决了
 
 ## 文章和项目开源地址
 
-一起学习，Java编程零基础入门，关注点赞`github`开源：[https://github.com/BradYan/easy-java](https://github.com/BradYan/easy-java)
+一起学习，Java最简单易懂的零基础入门，答疑解惑，关注点赞`github`开源：[https://github.com/BradYan/easy-java](https://github.com/BradYan/easy-java)
