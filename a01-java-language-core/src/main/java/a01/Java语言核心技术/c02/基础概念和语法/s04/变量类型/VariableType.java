@@ -2,6 +2,13 @@ package a01.Java语言核心技术.c02.基础概念和语法.s04.变量类型;
 
 public class VariableType {
 
+    String memberShipVar;//实例变量
+    static String classVar; //类变量
+
+    public void functionName(){
+        //this is a function.
+    }
+
     public static void main(String[] args) {
         int lVa = 10;
         System.out.println("方法局部变量, lVa =" + lVa);
