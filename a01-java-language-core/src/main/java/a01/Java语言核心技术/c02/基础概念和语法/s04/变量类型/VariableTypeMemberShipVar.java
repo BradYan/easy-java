@@ -10,35 +10,22 @@ public class VariableTypeMemberShipVar {
     }
 
     public static void main(String[] args) {
-        int lVa = 10;
-        System.out.println("方法局部变量, lVa =" + lVa);
 
-        System.out.println("方法参数局部变量: args ="+ args);
+        VariableTypeMemberShipVar varA = new VariableTypeMemberShipVar();
+        varA.memberShipVar = "红楼梦"; //设置成员变量中实例变量的值.
+        VariableTypeMemberShipVar varB = new VariableTypeMemberShipVar();
+        varB.memberShipVar = "三国演义"; //设置成员变量中实例变量的值.
+        System.out.println("varA的成员变量的实例变量值:"+varA.memberShipVar);
+        System.out.println("varB的成员变量的实例变量值:"+varB.memberShipVar);
 
-        {
-            int lVb = 5;
-            System.out.println("代码块局部变量, lVb = " + lVb);
-            System.out.println("代码块中可以访问到 lVa =" + lVa);
+        varA.classVar = "曹雪芹";//设置类变量值
+        System.out.println("varA的类变量值:"+varA.classVar);
+        varB.classVar = "罗贯中";//设置类变量值
+        System.out.println("varA的类变量值:"+varA.classVar);
+        System.out.println("varB的类变量值:"+varB.classVar);
+        VariableTypeMemberShipVar.classVar = "类名直接设置值";//类变量的值属于类的.实例对象公用这个值.不需要实例化对象也可以直接访问和赋值.
+        System.out.println("VariableTypeMemberShipVar的类变量值:"+VariableTypeMemberShipVar.classVar);
 
-        }
-
-        {
-            int lVc = 3;
-            System.out.println("代码块局部变量, lVc = " + lVc);
-            System.out.println("代码块中可以访问到 lVa =" + lVa);
-            System.out.println("代码块中可以访问到 args =" + args);
-//            System.out.println("代码块中不可以访问到 lVb ." + lVb); //取消注释,查看报错效果.
-
-        }
-//            System.out.println("这里也不可以访问到 lVb,lVc. lVb=" + lVb+",lVc="+lVc); //取消注释,查看报错效果.
     }
 
-    public static void testFunctionA(){
-        int a = 1;
-        System.out.println("方法局部变量, a = " + a);
-    }
-
-    public static void testFunctionB(double input){
-        System.out.println("方法参数局部变量, input = " + input);
-    }
 }
