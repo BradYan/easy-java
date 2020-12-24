@@ -1,4 +1,4 @@
-package a01$Java语言核心技术入门.c02章$基础概念和语法.s05$变量类型;
+package a01$Java语言核心技术入门.c02章$基础概念和语法.s05节$变量类型;
 
 public class VariableTypeMemberShipVar {
 

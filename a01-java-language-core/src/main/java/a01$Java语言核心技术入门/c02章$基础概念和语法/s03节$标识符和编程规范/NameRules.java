@@ -1,7 +1,7 @@
 package a01$Java语言核心技术入门.c02章$基础概念和语法.s03节$标识符和编程规范;
 
 
-import a01.Java语言核心技术.c02.基础概念和语法.s02.第一个类和对象.Book;
+import a01$Java语言核心技术入门.c02章$基础概念和语法.s02节$第一个类和对象.Book;
 
 import java.time.LocalDateTime;
 import java.util.Date;

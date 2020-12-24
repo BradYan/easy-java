@@ -1,4 +1,4 @@
-package a01.Java语言核心技术.c02.基础概念和语法.s04.变量类型;
+package a01$Java语言核心技术入门.c02章$基础概念和语法.s05节$变量类型;
 
 public class VariableDeclare {
 
@@ -29,9 +29,8 @@ public class VariableDeclare {
         String bookName;    // 先声明
         bookName ="红楼梦";    // 后赋值
 
-        String readerName,grade, comment;//读者，评分，评价    // 声明多个变量
+        String readerName, comment;//读者，评价    // 声明多个变量
         readerName = "布拉德";
-        grade = "经典巨著";
         comment = "伟大的作品，禁得起时间的考验";
 
 
