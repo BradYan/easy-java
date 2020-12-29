@@ -21,7 +21,7 @@ public class AutomaticTypeConversion {
 
         int buyNum = 2; // 定义购买的数量
         //在表达式计算中,buyNum同样进行了自动类型转换,先转成double类型,再计算值.
-        double totalPrice = bookPriceHongLouMengDouble * buyNum ; // 计算总价
+        double totalPrice = bookPriceHongLouMengDouble * buyNum ; // 计算总价,这里的*代表乘法的乘号.
         System.out.println("一共付给书店" + totalPrice + "元"); // 输出总价
         // double作为浮点数,用作价格计算需要注意精度问题.
 
