@@ -13,7 +13,7 @@ public class EscapeCharacter {
         char charData = '\'';
         System.out.println("转义字符测试,打印单引号:"+charData);
 
-        //有时候抓取别人网站数据的时候,看到\u的特殊字符串,基本都是unicode转义字符.我们可以在网上用转码工具查询.
+        //有时候抓取别人网站数据的时候,看到\\u的特殊字符串,基本都是unicode转义字符.我们可以在网上用转码工具查询.
         char a = '\u4f60';
         String b = "\u52a0";
         String c = "\u6cb9";
