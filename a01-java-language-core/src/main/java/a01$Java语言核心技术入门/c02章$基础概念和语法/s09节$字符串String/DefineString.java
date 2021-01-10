@@ -1,4 +1,4 @@
-package a01$Java语言核心技术入门.c02章$基础概念和语法.s08节$字符串String;
+package a01$Java语言核心技术入门.c02章$基础概念和语法.s09节$字符串String;
 
 public class DefineString {
 
@@ -13,6 +13,7 @@ public class DefineString {
         name = "<<经济学原理>>";
         System.out.println(name);
 
+        String a = new String();
 
     }
 }
